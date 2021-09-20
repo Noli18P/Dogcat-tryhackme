@@ -1,0 +1,6 @@
+PING 10.10.193.46 (10.10.193.46) 56(84) bytes of data.
+64 bytes from 10.10.193.46: icmp_seq=1 ttl=61 time=161 ms
+
+--- 10.10.193.46 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 161.301/161.301/161.301/0.000 ms

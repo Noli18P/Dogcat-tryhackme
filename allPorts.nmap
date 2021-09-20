@@ -1,0 +1,13 @@
+# Nmap 7.80 scan initiated Mon Sep 20 12:07:59 2021 as: nmap -p- -sS --min-rate 5000 -vvv --open -oA enum/all/allPorts 10.10.193.46
+Nmap scan report for 10.10.193.46
+Host is up, received echo-reply ttl 61 (0.31s latency).
+Scanned at 2021-09-20 12:07:59 CDT for 20s
+Not shown: 59231 closed ports, 6302 filtered ports
+Reason: 59231 resets and 6302 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack ttl 61
+80/tcp open  http    syn-ack ttl 60
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Sep 20 12:08:19 2021 -- 1 IP address (1 host up) scanned in 20.08 seconds
